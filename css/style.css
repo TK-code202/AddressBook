@@ -1,0 +1,64 @@
+.head-section {
+    display: flex;
+    align-items: center;
+    gap: 14rem;
+    margin-top: 1.7rem;
+    margin-left: 4.2rem;
+}
+
+.head-section img {
+    border-radius: 200px;
+    width: 100px;
+    height: 100px;
+}
+
+.bar {
+    font-size: 1.4rem;
+}
+
+.customButton {
+    margin-top: 0.3rem;
+   background-color: rgb(92, 241, 92);
+   width: 100px;
+   height: 40px;
+   border-radius: 0px;
+}
+
+.background {
+
+    left: 2rem;
+    position: absolute;
+    z-index: -1;
+    top: 9rem;
+}
+
+.background img {
+    width: 1200px;
+    height: 570px;
+}
+
+.contentOne {
+    margin-top: 6rem;
+    margin-left: 18rem;
+    font-size: 1.0rem;
+    font-weight: 500;
+    color: rgb(235, 240, 245);
+    
+}
+
+.heading {
+    color: azure;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.view {
+    margin-top: 7rem;
+    outline: none;
+    border-style: none;
+    color: #000;
+    background-color: #ffffff;
+    width: 200px;
+    border-radius: 30px;
+    height: 50px;
+}
