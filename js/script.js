@@ -1,6 +1,8 @@
 //User Interface Logic
 
+
 $(document).ready(function() {
+
     //To Open Form
     $(".view").click(function() {
         $(".none").hide();
@@ -8,8 +10,8 @@ $(document).ready(function() {
 
     });
 
+    // Add Contacts
     $(".formOne").submit(function (event){
-        // Add Contacts
         const firstNameInput = $("input#first-name").val();
         const middleNameInput = $("input#middle-name").val();
         const lastNameInput = $("input#last-name").val();
