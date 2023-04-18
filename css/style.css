@@ -1,7 +1,7 @@
 .head-section {
     display: flex;
     align-items: center;
-    gap: 14rem;
+    gap: 12rem;
     margin-top: 1.7rem;
     margin-left: 4.2rem;
 }
@@ -13,15 +13,22 @@
 }
 
 .bar {
+    color: rgb(12, 12, 12);
     font-size: 1.4rem;
+}
+.active {
+    color: rgb(19, 19, 18);
+    font-weight: 800;
 }
 
 .customButton {
-    margin-top: 0.3rem;
+    margin-top: -0.1rem;
    background-color: rgb(92, 241, 92);
-   width: 100px;
-   height: 40px;
+   padding-bottom: 2px;
+   width: 120px;
+   height: 52px;
    border-radius: 0px;
+   font-size: 1.2rem;
 }
 
 .background {
@@ -29,7 +36,7 @@
     left: 2rem;
     position: absolute;
     z-index: -1;
-    top: 9rem;
+    top: 11rem;
 }
 
 .background img {
@@ -38,27 +45,128 @@
 }
 
 .contentOne {
-    margin-top: 6rem;
-    margin-left: 18rem;
-    font-size: 1.0rem;
+    margin-top: 10rem;
+    margin-left: 8rem;
+    font-size: 1.8rem;
     font-weight: 500;
-    color: rgb(235, 240, 245);
+    color: rgb(250, 249, 249);
     
 }
 
 .heading {
-    color: azure;
-    font-size: 1.8rem;
+    color: rgb(58, 53, 53);
+    font-size: 2.5rem;
     font-weight: 700;
 }
 
 .view {
-    margin-top: 7rem;
+    margin-top: 5rem;
     outline: none;
     border-style: none;
     color: #000;
-    background-color: #ffffff;
-    width: 200px;
+    background-color: #fcfcfcee;
+    width: 320px;
     border-radius: 30px;
     height: 50px;
+}
+
+.information {
+    margin-top: 8rem;
+}
+.none {
+    margin-left: 24rem;
+    justify-content: center;
+    background-color: rgba(248, 23, 23, 0.603);
+    padding: 20px;
+    width: 40%;
+    height: 60px;
+    margin-bottom: 0.7rem;
+    
+}
+
+.none p {
+    font-size: 1.3rem;
+}
+
+.formOne {
+    width: 80%;
+    margin-left: 7rem;
+    padding: 8px;
+    margin-bottom: 2rem;
+    margin-top: 11rem;
+    display: none;
+}
+
+.viewOne  {
+    background-color: gainsboro;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 680px;
+    height: 110px;
+    margin-left: 17rem;
+    margin-bottom: 2rem;
+    margin-top: 14rem;
+    display: none;
+    cursor: pointer;
+}
+span {
+    font-weight: 900;
+}
+.viewOne p {
+    margin-top: -5rem;
+    margin-left: 8rem;
+}
+
+.hiddenInfo {
+    background-color: gainsboro;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 680px;
+    height: 200px;
+    margin-top: 14rem;
+    margin-left: 17rem;
+    margin-bottom: 2rem;
+    display: none;
+    cursor: pointer;
+}
+.hiddenInfo li {
+    list-style-type: none;
+    margin-left: 7rem;
+    margin-top: 2px;
+}
+
+.hiddenInfo ul {
+    margin-top: -6.0rem;
+}
+.contacts img  {
+    margin-top: 0.3rem;
+    border-radius: 200px;
+    width: 100px;
+    height: 100px;
+}
+
+.buttons {
+    gap: 3px;
+    display: flex;
+    margin-left: 32rem;
+    margin-top: 1rem;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+    margin-top: 5rem;
+    height: 60px;
+}
+
+.footer p {
+    color: white;
 }
