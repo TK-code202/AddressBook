@@ -112,9 +112,11 @@
     display: none;
     cursor: pointer;
 }
+
 span {
     font-weight: 900;
 }
+
 .viewOne p {
     margin-top: -5rem;
     margin-left: 8rem;
@@ -135,6 +137,7 @@ span {
     display: none;
     cursor: pointer;
 }
+
 .hiddenInfo li {
     list-style-type: none;
     margin-left: 7rem;
@@ -144,6 +147,7 @@ span {
 .hiddenInfo ul {
     margin-top: -6.0rem;
 }
+
 .contacts img  {
     margin-top: 0.3rem;
     border-radius: 200px;
