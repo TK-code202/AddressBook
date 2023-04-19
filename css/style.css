@@ -1,9 +1,11 @@
+
+/*  Nav Bar */
 .head-section {
     display: flex;
     align-items: center;
-    gap: 12rem;
+    gap: 6rem;
     margin-top: 1.7rem;
-    margin-left: 4.2rem;
+    margin-left: 2.2rem;
 }
 
 .head-section img {
@@ -59,6 +61,13 @@
     font-weight: 700;
 }
 
+.text {
+    margin-left: 27rem;
+}
+.text2 {
+    margin-left: 4rem;
+}
+
 .view {
     margin-top: 5rem;
     outline: none;
@@ -74,7 +83,7 @@
     margin-top: 8rem;
 }
 .none {
-    margin-left: 24rem;
+    margin-left: 20rem;
     justify-content: center;
     background-color: rgba(248, 23, 23, 0.603);
     padding: 20px;
@@ -93,7 +102,7 @@
     margin-left: 7rem;
     padding: 8px;
     margin-bottom: 2rem;
-    margin-top: 11rem;
+    margin-top: 6rem;
     display: none;
 }
 
@@ -108,7 +117,7 @@
     height: 110px;
     margin-left: 17rem;
     margin-bottom: 2rem;
-    margin-top: 14rem;
+    margin-top: 10rem;
     display: none;
     cursor: pointer;
 }
@@ -173,4 +182,28 @@ span {
 
 .footer p {
     color: white;
+}
+
+@media (max-width: 768px) {
+    .customButton {
+        margin-top: 2rem;
+       background-color: rgb(92, 241, 92);
+       padding-bottom: 2px;
+       width: 180px;
+       height: 49px;
+       border-radius: 0px;
+       font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .customButton {
+        margin-top: 2rem;
+       background-color: rgb(92, 241, 92);
+       padding-bottom: 2px;
+       width: 240px;
+       height: 44px;
+       border-radius: 0px;
+       font-size: 1.2rem;
+    }
 }
