@@ -1,6 +1,6 @@
 # _Address Book_
 
-#### _This application was created for adding contacts by filling address book form._
+#### _This application was created for adding contacts by filling an address book form._
 
 #### By _**Tofunmi Kusimo**_
 
